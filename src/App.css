@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin:0px;
+  color: white;
+}
+body{
+  background-color: black;
+  padding-left: 20px;
+}
+button{
+  color: black;
+  height: auto;
+  width: auto;
+  padding:5px;
+  font-size:22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+progress{
+  height: 30px;
+}
+.colors{
+  margin-top: 35px;
+  display: flex;
+  gap:35px;
+  justify-content: center;
+}
+.color{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
