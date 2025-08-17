@@ -19,7 +19,7 @@ function App() {
   },[color])
   return (
     <>
-      <h1 align="center">Progress Bar with Background Color Changer</h1>
+      <h1 align="center">Progress Bar with Background Color Changer and also password Generator</h1>
       <div className="colors">
         <button style={{color:"green"}} className="color" onClick={()=>setColor("green")}>Green</button>
         <button style={{color:"red"}} className="color" onClick={()=>setColor("red")}>Red</button>
